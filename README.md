@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="flex justify-center items-center flex-col " style="scroll-behavior: smooth; width: 80%; ">
+<html lang="fr" class="flex justify-center items-center" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,9 @@
         *{
             font-family: 'Poppins', sans-serif;
             margin: 0;
-            padding: 0;           
+            padding: 0;
+           
+
         }
 
        
@@ -22,7 +24,7 @@
 </head>
 <body class="flex flex-col justify-center items-center min-h-screen  " style="width: 100vw ;">
 
-    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-screen  items-center justify-between " style="height:6em ;">
+    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-full  items-center justify-between " style="height:6em ;">
         <img src="https://pbs.twimg.com/media/F1WlsLaXwAEh9XS?format=jpg&name=small" alt="logo de beshop" style="height: 4em; " class="mr-auto ml-5" >
         
         <i class="fa-solid fa-bars text-red-600 mr-5" id="phone_menu_viewer" style="font-size: 24px ;"></i>
@@ -61,7 +63,7 @@
     </div>
 
 
-    <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section" >
+    <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section">
         <div class="shadow-lg   border-red-400 border shadow-red-200 my-2 mx-1 rounded rounded-md">
             <div id="viewed-container" class=" bg-white rounded-md m-8 " style="overflow: hidden ;  transition: 1s ease;">
                 <div id="container" class=" bg-white rounded-md    shadow-red-200 w-full flex flex-row duration-1000"   style="width: 200%;  " >
