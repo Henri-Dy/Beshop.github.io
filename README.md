@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr" class="flex justify-center items-center" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +15,8 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+            transition: 1s ease;
+            transition: transform 1s ease;
         }
 
        
@@ -21,44 +24,28 @@
 </head>
 <body class="flex flex-col justify-center items-center min-h-screen  " style="width: 100vw ;">
 
-    <header class="bg-white mb-auto  sticky top-0  flex flex-row w-full  items-center justify-between " style="height:6em ;z-index:100;">
-        <img src="https://pbs.twimg.com/media/F1WlsLaXwAEh9XS?format=jpg&name=small" alt="logo de beshop" style="height: 4em; " class="mr-auto ml-5" >
-        
-        <i class="fa-solid fa-bars text-red-600 mr-5" id="phone_menu_viewer" style="font-size: 24px ;"></i>
-        <script>
-            $(function(){
-                $('.Postuler').click(function(){
-                    $('#postuler_section').show();
-                    $('#conditions').hide();
-                })
-                $('.Lire_les_conditions_générales').click(function(){
-                    $('#postuler_section').hide();
-                    $('#conditions').show();
-                })
-            });
-        </script>
-    </header>
-
-    <div class="ml-auto mr-5 p-4  border border-red-400 rounded-md sticky top-20  bg-white  " style="display: none; z-index: 100;" id="phone_menu">
-
+    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-full  items-center justify-between" style="height:6em;">
+        <img src="https://pbs.twimg.com/media/F1WlsLaXwAEh9XS?format=jpg&name=small" alt="logo de beshop" style="height: 4em;" class="mr-auto ml-5">
+        <i class="fa-solid fa-bars text-red-600 mr-5 transition" id="phone_menu_viewer" style="font-size: 24px;"></i>
+      </header>
+      
+      <div class="ml-auto mr-5 p-4  border border-red-400 rounded-md sticky top-20 bg-white" style="display: none; z-index: 100;" id="phone_menu">
         <ul>
-            <li class="hover:text-red-600 Postuler">Postuler</li>
-            <li class="hover:text-red-600 Lire_les_conditions_générales">Lire les conditions générales </li>
-            <li class="hover:text-red-600"><a href="https://wa.me/68990410?text=">Contactez Beshop</a></li>
+          <li class="hover:text-red-600 Postuler">Postuler</li>
+          <li class="hover:text-red-600 Lire_les_conditions_générales">Lire les conditions générales</li>
+          <li class="hover:text-red-600"><a href="https://wa.me/68990410?text=">Contactez Beshop</a></li>
         </ul>
-
-        <script>
-            $(function(){
-                $('#phone_menu_viewer').click(function(){
-                    $('#phone_menu').toggle();
-                    $('#postuler_section').css('margin-top','-0px  ')
-                    
-                })
-                
-            });
-        </script>
-    </div>
-
+      </div>
+      
+      <script>
+        $(function() {
+          $('#phone_menu_viewer').click(function() {
+            $('#phone_menu').slideToggle();
+            $(this).toggleClass('fa-bars fa-times');
+          });
+        });
+      </script>
+      
 
     <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section">
         <div class="shadow-lg   border-red-400 border shadow-red-200 my-2 mx-1 rounded rounded-md">
