@@ -24,7 +24,7 @@
 </head>
 <body class="flex flex-col justify-center items-center min-h-screen  " style="width: 100vw ;">
 
-    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-full  items-center justify-between " style="height:6em ;">
+    <header class="bg-white mb-auto  sticky top-0  flex flex-row w-full  items-center justify-between " style="height:6em ;z-index:100;">
         <img src="https://pbs.twimg.com/media/F1WlsLaXwAEh9XS?format=jpg&name=small" alt="logo de beshop" style="height: 4em; " class="mr-auto ml-5" >
         
         <i class="fa-solid fa-bars text-red-600 mr-5" id="phone_menu_viewer" style="font-size: 24px ;"></i>
