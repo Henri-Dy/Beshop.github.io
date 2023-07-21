@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="flex justify-center items-center flex-col " style="scroll-behavior: smooth; width: 100%; ">
+<html lang="fr" class="flex justify-center items-center flex-col " style="scroll-behavior: smooth; width: 80%; ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
