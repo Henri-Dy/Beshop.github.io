@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="flex justify-center items-center flex-col " style="scroll-behavior: smooth;">
+<html lang="fr" class="flex justify-center items-center flex-col " style="scroll-behavior: smooth; width: 100%; ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,7 +61,7 @@
     </div>
 
 
-    <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section" style="width: 100%; ">
+    <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section" >
         <div class="shadow-lg   border-red-400 border shadow-red-200 my-2 mx-1 rounded rounded-md">
             <div id="viewed-container" class=" bg-white rounded-md m-8 " style="overflow: hidden ;  transition: 1s ease;">
                 <div id="container" class=" bg-white rounded-md    shadow-red-200 w-full flex flex-row duration-1000"   style="width: 200%;  " >
