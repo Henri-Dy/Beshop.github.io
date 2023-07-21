@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr" class="flex justify-center items-center" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
