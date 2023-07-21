@@ -1,5 +1,4 @@
-# Beshop.github.io
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr" class="flex justify-center items-center" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
@@ -16,23 +15,19 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
+           
+
         }
 
        
     </style>
 </head>
-<body class="flex flex-col justify-center items-center min-h-screen  " style="width: 100%;">
+<body class="flex flex-col justify-center items-center min-h-screen  " style="width: 100vw ;">
 
-    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-full  items-center justify-end " style="height:6em ;">
+    <header class="bg-white mb-auto fixed sticky top-0  flex flex-row w-full  items-center justify-between " style="height:6em ;">
         <img src="https://pbs.twimg.com/media/F1WlsLaXwAEh9XS?format=jpg&name=small" alt="logo de beshop" style="height: 4em; " class="mr-auto ml-5" >
-        <ul class="flex flex-row hidden md:flex mx-auto">
-            <li><a href="#"class="mx-2 hover:text-red-600 Postuler" >Postuler</a></li>
-            <li><a href="#" class="mx-2 hover:text-red-600 Lire_les_conditions_générales" >Lire les conditions générales </a></li>
-        </ul>
         
-        
-        <a href="https://wa.me/68990410?text="><button class="border border-red-600 p-3 rounded-md  bg-red-600 text-white hover:bg-white hover:text-red-400 duration-500  mr-10 hidden md:block">Contactez Beshop  <i class="fa-solid fa-up-right-from-square"></i></button></a>
-        <i class="fa-solid fa-ellipsis-vertical mr-6 md:hidden" id="phone_menu_viewer"></i>
+        <i class="fa-solid fa-bars text-red-600 mr-5" id="phone_menu_viewer" style="font-size: 24px ;"></i>
         <script>
             $(function(){
                 $('.Postuler').click(function(){
@@ -59,6 +54,7 @@
             $(function(){
                 $('#phone_menu_viewer').click(function(){
                     $('#phone_menu').toggle();
+                    $('#postuler_section').css('margin-top','-0px  ')
                     
                 })
                 
@@ -67,7 +63,7 @@
     </div>
 
 
-    <section class="min-h-screen flex flex-col justify-center items-center" id="postuler_section">
+    <section class="min-h-screen flex flex-col justify-center items-center  " id="postuler_section">
         <div class="shadow-lg   border-red-400 border shadow-red-200 my-2 mx-1 rounded rounded-md">
             <div id="viewed-container" class=" bg-white rounded-md m-8 " style="overflow: hidden ;  transition: 1s ease;">
                 <div id="container" class=" bg-white rounded-md    shadow-red-200 w-full flex flex-row duration-1000"   style="width: 200%;  " >
