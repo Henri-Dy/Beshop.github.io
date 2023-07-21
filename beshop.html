@@ -79,6 +79,8 @@
                             <input type="number" placeholder="Ex: 01 02 03 04" class="border border-gray-400 rounded-sm px-2 py-1 hover:border-red-400  duration-200 mt-1" id="phone_number">
     
                             <button class="border border-red-400 rounded-sm px-4 py-2 mt-5 text-white bg-red-600 hover:bg-white hover:text-red-500 duration-200 " id="submit-btn" >Soumettre <i class="fa-solid fa-check" ></i></button>
+
+                            
                             
                         </form>
     
@@ -88,6 +90,7 @@
                                     $('#container').css('transform','translateX(-50%)');
                     
                                 });
+                               
                                 
                                 
                             });
@@ -102,6 +105,20 @@
                         <div class="flex flex-row  rounded-sm mt-5 " id="link_div">
                             <a href="https://wa.me/68990410?text=Salut%20Moi%20C'est"><div><i class="fa-solid fa-up-right-from-square"></i></div></a>
                         </div>
+                        <i class="fa-solid fa-arrow-left text-red-600 mt-auto back_arrow mr-auto ml-5  " ></i>
+
+                        <script>
+                            $(window).on('load', function(){
+                               
+                                $('.back_arrow').on('click',function(){
+                                    $('#container').css('transform','translateX(0%)');
+                    
+                                });
+                                
+                                
+                            });
+                        </script>
+
                     </div>
     
                     
@@ -179,7 +196,7 @@
     4. Commissions et Paiements<br>
     
     4.1. Les Partenaires recevront une commission de 5 % sur le prix de vente de chaque Mèche vendue grâce à leurs efforts de promotion.<br>
-    4.2. Les commissions seront calculées sur une base mensuelle.<br>
+    4.2. Les commissions seront calculées sur une base instentanée.<br>
     4.3. Les paiements des commissions seront effectués [indiquez ici la fréquence des paiements, par exemple, mensuellement/trimestriellement] par Beshop.<br>
     4.4. Les modalités de paiement seront définies par Beshop et communiquées aux Partenaires.<br><br>
     
@@ -191,7 +208,7 @@
     6. Durée et Résiliation<br>
     
     6.1. Les présentes Conditions Générales entreront en vigueur à la date de l'adhésion du Partenaire et resteront en vigueur jusqu'à leur résiliation conformément aux dispositions ci-dessous.<br>
-    6.2. L'une ou l'autre des parties peut résilier le présent contrat d'affiliation à tout moment, moyennant un préavis écrit de [indiquez la durée du préavis, par exemple, 30 jours] à l'autre partie.<br>
+    6.2. L'une ou l'autre des parties peut résilier le présent contrat d'affiliation à tout moment, moyennant un préavis écrit de 3 jours à l'autre partie.<br>
     6.3. En cas de non-respect des présentes Conditions Générales, Beshop se réserve le droit de résilier immédiatement le contrat d'affiliation sans préavis.<br><br>
     
     7. Modifications des Conditions Générales<br>
