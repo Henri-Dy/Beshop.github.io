@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr" class="flex justify-center items-center" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
@@ -197,7 +197,7 @@
     
     4.1. Les Partenaires recevront une commission de 5 % sur le prix de vente de chaque Mèche vendue grâce à leurs efforts de promotion.<br>
     4.2. Les commissions seront calculées sur une base instentanée.<br>
-    4.3. Les paiements des commissions seront effectués [indiquez ici la fréquence des paiements, par exemple, mensuellement/trimestriellement] par Beshop.<br>
+    4.3. Les paiements des commissions seront effectués instantanément par Beshop.<br>
     4.4. Les modalités de paiement seront définies par Beshop et communiquées aux Partenaires.<br><br>
     
     5. Propriété Intellectuelle<br>
