@@ -153,7 +153,7 @@
         var message = "Salut, moi c'est " + prenom_input + " " + nom_input + " et mon numéro de téléphone est " + phone_number_input + ". Je souhaite postuler pour le poste de commercial au compte de l'entreprise Beshop ! Mon lien unique est : https://wa.me/?text=Salut%2C%20je%20viens%20de%20la%20part%20de%20" + prenom_input + nom_input + phone_number_input;
         var encodedMessage = encodeURIComponent(message);
     
-        var link = "https://wa.me/68990410?text=" + encodedMessage;
+        var link = "https://wa.me/55919250?text=" + encodedMessage;
     
         $('#link_div').html('<a href="' + link + '"><div><i class="fa-solid fa-up-right-from-square text-red-400"></div></a>');
       });
